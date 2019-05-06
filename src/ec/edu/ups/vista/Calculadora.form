@@ -38,6 +38,8 @@
                       <Component id="btnExponencial" min="-2" pref="71" max="-2" attributes="0"/>
                       <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
                       <Component id="btnFraccion" min="-2" pref="71" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="btnCe" min="-2" pref="71" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
                       <Component id="btnSiete" min="-2" pref="71" max="-2" attributes="0"/>
@@ -47,38 +49,40 @@
                       <Component id="btnNueve" min="-2" pref="71" max="-2" attributes="0"/>
                       <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
                       <Component id="btnMas" min="-2" pref="71" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" attributes="0">
-                      <Component id="btnCuatro" min="-2" pref="71" max="-2" attributes="0"/>
-                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
-                      <Component id="btnCinco" min="-2" pref="71" max="-2" attributes="0"/>
-                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
-                      <Component id="btnSeis" min="-2" pref="71" max="-2" attributes="0"/>
-                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-                      <Component id="btnMenos" min="-2" pref="71" max="-2" attributes="0"/>
-                      <EmptySpace min="18" pref="18" max="-2" attributes="0"/>
-                      <Component id="btnCe" min="-2" pref="71" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" attributes="0">
-                      <Component id="btnUno" min="-2" pref="71" max="-2" attributes="0"/>
-                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-                      <Component id="btnDos" min="-2" pref="71" max="-2" attributes="0"/>
-                      <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
-                      <Component id="btnTres" min="-2" pref="71" max="-2" attributes="0"/>
-                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-                      <Component id="btnPor" min="-2" pref="71" max="-2" attributes="0"/>
-                      <EmptySpace min="18" pref="18" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="btnC" min="-2" pref="71" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
-                      <Component id="btnCero" min="-2" pref="71" max="-2" attributes="0"/>
-                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
-                      <Component id="btnPunto" min="-2" pref="71" max="-2" attributes="0"/>
-                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
-                      <Component id="btnBorrar" min="-2" pref="71" max="-2" attributes="0"/>
-                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-                      <Component id="btnDivision" min="-2" pref="71" max="-2" attributes="0"/>
-                      <EmptySpace min="18" pref="18" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="btnCuatro" min="-2" pref="71" max="-2" attributes="0"/>
+                              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                              <Component id="btnCinco" min="-2" pref="71" max="-2" attributes="0"/>
+                              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                              <Component id="btnSeis" min="-2" pref="71" max="-2" attributes="0"/>
+                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                              <Component id="btnMenos" min="-2" pref="71" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="btnUno" min="-2" pref="71" max="-2" attributes="0"/>
+                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                              <Component id="btnDos" min="-2" pref="71" max="-2" attributes="0"/>
+                              <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                              <Component id="btnTres" min="-2" pref="71" max="-2" attributes="0"/>
+                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                              <Component id="btnPor" min="-2" pref="71" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="btnCero" min="-2" pref="71" max="-2" attributes="0"/>
+                              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                              <Component id="btnPunto" min="-2" pref="71" max="-2" attributes="0"/>
+                              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                              <Component id="btnBorrar" min="-2" pref="71" max="-2" attributes="0"/>
+                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                              <Component id="btnDivision" min="-2" pref="71" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
                       <Component id="btnIgual" min="-2" pref="71" max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -96,38 +100,49 @@
                   <Component id="btnPorcentaje" min="-2" pref="56" max="-2" attributes="0"/>
                   <Component id="btnRaiz" min="-2" pref="56" max="-2" attributes="0"/>
                   <Component id="btnExponencial" min="-2" pref="56" max="-2" attributes="0"/>
-                  <Component id="btnFraccion" min="-2" pref="56" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btnFraccion" alignment="3" min="-2" pref="56" max="-2" attributes="0"/>
+                      <Component id="btnCe" alignment="3" min="-2" pref="56" max="-2" attributes="0"/>
+                  </Group>
               </Group>
               <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="btnSiete" min="-2" pref="56" max="-2" attributes="0"/>
                   <Component id="btnOcho" min="-2" pref="56" max="-2" attributes="0"/>
                   <Component id="btnNueve" min="-2" pref="56" max="-2" attributes="0"/>
-                  <Component id="btnMas" min="-2" pref="56" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btnMas" alignment="3" min="-2" pref="56" max="-2" attributes="0"/>
+                      <Component id="btnC" alignment="3" min="-2" pref="56" max="-2" attributes="0"/>
+                  </Group>
               </Group>
-              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="btnCuatro" min="-2" pref="56" max="-2" attributes="0"/>
-                  <Component id="btnCinco" min="-2" pref="56" max="-2" attributes="0"/>
-                  <Component id="btnSeis" min="-2" pref="56" max="-2" attributes="0"/>
-                  <Component id="btnMenos" min="-2" pref="56" max="-2" attributes="0"/>
-                  <Component id="btnCe" min="-2" pref="56" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="btnUno" min="-2" pref="56" max="-2" attributes="0"/>
-                  <Component id="btnDos" min="-2" pref="56" max="-2" attributes="0"/>
-                  <Component id="btnTres" min="-2" pref="56" max="-2" attributes="0"/>
-                  <Component id="btnPor" min="-2" pref="56" max="-2" attributes="0"/>
-                  <Component id="btnC" min="-2" pref="56" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="btnCero" min="-2" pref="56" max="-2" attributes="0"/>
-                  <Component id="btnPunto" min="-2" pref="56" max="-2" attributes="0"/>
-                  <Component id="btnBorrar" min="-2" pref="56" max="-2" attributes="0"/>
-                  <Component id="btnDivision" min="-2" pref="56" max="-2" attributes="0"/>
-                  <Component id="btnIgual" min="-2" pref="56" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="btnCuatro" min="-2" pref="56" max="-2" attributes="0"/>
+                          <Component id="btnCinco" min="-2" pref="56" max="-2" attributes="0"/>
+                          <Component id="btnSeis" min="-2" pref="56" max="-2" attributes="0"/>
+                          <Component id="btnMenos" min="-2" pref="56" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="btnUno" min="-2" pref="56" max="-2" attributes="0"/>
+                          <Component id="btnDos" min="-2" pref="56" max="-2" attributes="0"/>
+                          <Component id="btnTres" min="-2" pref="56" max="-2" attributes="0"/>
+                          <Component id="btnPor" min="-2" pref="56" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="btnCero" min="-2" pref="56" max="-2" attributes="0"/>
+                          <Component id="btnPunto" min="-2" pref="56" max="-2" attributes="0"/>
+                          <Component id="btnBorrar" min="-2" pref="56" max="-2" attributes="0"/>
+                          <Component id="btnDivision" min="-2" pref="56" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="btnIgual" min="-2" pref="180" max="-2" attributes="0"/>
+                  </Group>
               </Group>
               <EmptySpace pref="25" max="32767" attributes="0"/>
           </Group>
